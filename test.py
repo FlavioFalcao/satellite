@@ -12,9 +12,11 @@ def _on_message(ch, method, properties, body):
     print '---------------'
 
 
-paras = pika.ConnectionParameters(credentials=pika.PlainCredentials(
-    username='guest',
-    password='ntse')
+paras = pika.ConnectionParameters(
+    host='127.0.0.1',
+    credentials=pika.PlainCredentials(
+        username='guest',
+        password='ntse')
 )
 conn = pika.BlockingConnection(paras)
 chan = conn.channel()
