@@ -17,3 +17,7 @@ that, and we may find the will be a bug.
 # Roadmap
   1. trace_off, for easier debuging for nova-compute. And take some experiment
   2. trace_on, for easier debuging for nova-network.
+
+# References
+  -. http://www.rabbitmq.com/firehose.html
+  -. http://www.rabbitmq.com/tutorials/tutorial-five-python.html
