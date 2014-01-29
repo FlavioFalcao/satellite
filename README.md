@@ -19,5 +19,5 @@ that, and we may find the will be a bug.
   2. trace_on, for easier debuging for nova-network.
 
 # References
-  -. http://www.rabbitmq.com/firehose.html
-  -. http://www.rabbitmq.com/tutorials/tutorial-five-python.html
+  - http://www.rabbitmq.com/firehose.html
+  - http://www.rabbitmq.com/tutorials/tutorial-five-python.html
